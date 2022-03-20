@@ -10,6 +10,7 @@ const github = axios.create({
 
 // Get searchResults
 export const searchUsers = async (text) => {
+    // eslint-disable-next-line no-unused-vars
     const params = new URLSearchParams({
         q: text,
     });
